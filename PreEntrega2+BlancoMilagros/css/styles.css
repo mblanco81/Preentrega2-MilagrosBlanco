@@ -1,0 +1,266 @@
+* {
+
+    padding: 0px;
+    top: 0px;
+
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    left:0;
+}
+
+
+
+
+header {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+}
+
+.logo {
+    width: 300px;
+    background-color: black;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 0px;
+    left:0;
+
+
+
+}
+
+li {
+    display: inline-block;
+
+
+}
+
+header nav {
+    float: right;
+    padding-bottom: 0%;
+
+}
+
+header nav ul {
+    list-style: none;
+    font-family: 'Kanit', sans-serif;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 20px;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.info {
+    margin-top: 20px;
+}
+
+main {
+    background-color: black;
+    padding-top: 300px;
+    text-decoration: none;
+    color: white;
+
+
+    width: 100%;
+}
+
+h1 h4 {
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+h2 {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h5 {
+    font-size: 12px;
+    font-family: 'Kanit', sans-serif;
+}
+
+article.Introduccion {
+
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+article.Introduccion img.izquierda {
+    float: left;
+    margin-right: 15px;
+    border-radius: 10%;
+
+}
+
+div.reset {
+    clear: both;
+}
+
+article.servicios {
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+div.parrafos {
+    display: flex;
+}
+
+div.parrafos img {
+    float: left;
+    margin-right: 15px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+
+ footer {
+    background-color: black;
+
+    top: 0;
+    padding-left: 30px;
+    padding-top: 10px;
+    writing-mode: horizontal-tb;
+
+    width: 100%;
+} 
+
+footer div.footer {
+    background-color: black;
+
+
+    display: flex;
+    width: 100%;
+
+}
+
+
+footer div {
+    font-size: 15px;
+    color: white;
+
+    display: flex;
+}
+
+footer div.footer {
+    font-size: 15px;
+    color: white;
+
+    display: flex;
+}
+
+footer div.article.redes {
+
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+
+}
+
+.contacto {
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+
+.historia {
+
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+
+}
+
+
+.historia img.izquierda {
+    float: left;
+    margin-right: 15px;
+    border-radius: 10%;
+    margin-bottom: 50px;
+
+
+}
+
+.faq {
+
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+div.parrafos1 {
+    display: flex;
+}
+
+div.parrafos img {
+    float: left;
+    margin-right: 15px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+div.parrafos2 {
+    display: flex;
+}
+
+div.parrafos2 img.derecha {
+    float: right;
+    margin-left: 15px;
+    border-radius: 10%;
+    width: 150px;
+    height: 150px;
+}
+
+
+.parrafos1 img.izquierda {
+    float: left;
+    margin-right: 15px;
+    border-radius: 10%;
+    margin-bottom: 50px;
+
+}
+
+div.parrafos3 {
+    display: flex;
+}
+
+.parrafos3 img.izquierda {
+    float: left;
+    margin-right: 15px;
+    border-radius: 10%;
+    margin-bottom: 50px;
+    width: 150px;
+    height: 150px;
+
+}
