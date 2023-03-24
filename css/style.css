@@ -1,0 +1,175 @@
+* {
+  padding: 0px;
+  top: 0px;
+  background-color: black;
+}
+
+.grid-container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas: "header header nav" "section section section" "servicios servicios servicios" "section section section" "footer footer    footer";
+  grid-template-columns: 150px 3fr 1fr;
+  grid-template-rows: 100px 1fr 1fr 1fr 150px;
+  column-gap: 10px;
+  row-gap: 15px;
+}
+
+header {
+  background: black;
+  grid-area: header;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav {
+  background: black;
+  grid-area: nav;
+}
+
+.container-fluid {
+  background-color: black;
+}
+
+.footerBg h4 {
+  color: #b6afaf;
+  text-align: center;
+}
+
+.info {
+  margin-top: 20px;
+}
+
+article.Introduccion {
+  width: 50%;
+  text-align: center;
+  margin: 20px auto;
+  padding: 15px;
+}
+
+article.Introduccion img.izquierda {
+  float: left;
+  margin-right: 15px;
+  border-radius: 10%;
+}
+
+div.reset {
+  clear: both;
+}
+
+article.servicios {
+  width: 50%;
+  text-align: center;
+  margin: 20px auto;
+  padding: 15px;
+}
+
+div.parrafos {
+  display: flex;
+}
+
+div.parrafos img {
+  float: left;
+  margin-right: 15px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.contacto {
+  width: 50%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.historia {
+  width: 50%;
+  text-align: center;
+  margin: 20px auto;
+  padding: 15px;
+}
+
+.historia img.izquierda {
+  float: left;
+  margin-right: 15px;
+  border-radius: 10%;
+  margin-bottom: 50px;
+}
+
+.faq {
+  width: 50%;
+  text-align: center;
+  margin: 20px auto;
+  padding: 15px;
+}
+
+div.parrafos1 {
+  display: flex;
+}
+
+div.parrafos img {
+  float: left;
+  margin-right: 15px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+div.parrafos2 {
+  display: flex;
+}
+
+div.parrafos2 img.derecha {
+  float: right;
+  margin-left: 15px;
+  border-radius: 10%;
+  width: 150px;
+  height: 150px;
+}
+
+.parrafos1 img.izquierda {
+  float: left;
+  margin-right: 15px;
+  border-radius: 10%;
+  margin-bottom: 50px;
+}
+
+div.parrafos3 {
+  display: flex;
+}
+
+.mapa {
+  size: auto;
+}
+
+.parrafos3 img.izquierda {
+  float: left;
+  margin-right: 15px;
+  border-radius: 10%;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+}
+
+main {
+  background-color: black;
+  padding-top: 300px;
+  text-decoration: none;
+  color: white;
+  width: 100%;
+}
+
+section {
+  background: black;
+  grid-area: productos;
+  display: flex;
+}
+
+footer {
+  background: black;
+  grid-area: footer;
+}
+
+/*# sourceMappingURL=style.css.map */
